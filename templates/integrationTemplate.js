@@ -1,4 +1,39 @@
-exports.JSON=`
-
-
+exports.JSONinput=`
+{
+    "":"",
+    "":"",
+    "":"",
+    "":""
+}
 `;
+
+exports.XML=
+`<XMLroot>
+<header>
+<title>Small Pointless App<title>
+<name>Szilágyi István<name>
+</header>
+<body>
+<item>
+<descrioption></descrioption>
+<id></id>
+<itemname></itemname>
+</item>
+<item>
+<descrioption></descrioption>
+<id></id>
+<itemname></itemname>
+</item>
+<item>
+<descrioption></descrioption>
+<id></id>
+<itemname></itemname>
+</item>
+<item>
+<descrioption></descrioption>
+<id></id>
+<itemname></itemname>
+</item>
+</body>
+</XMLroot>`
+;
