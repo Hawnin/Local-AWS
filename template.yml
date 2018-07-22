@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+    Useless app for myself to check out various bits of codes.
+    Environment is windows with docker and SAM 
+
+Resources:
+  MyFunction:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: awsLambda.handler
+      Runtime: nodejs6.10
+      CodeUri: 'codes/'
+      
+      Events:
+                awsLambda:
+                    Type: Api
+                    Properties:
+                        Path: /getIP
+                        Method: get
+    MyFunction:
+      Description: "Lambda Function ARN"
+      Value: !GetAtt MyFunction.Arn

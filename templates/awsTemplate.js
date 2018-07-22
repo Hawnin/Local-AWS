@@ -1,4 +1,5 @@
-exports.JSONinput=`{"Items":[
+exports.JSONinput = `{
+    "Items":[
 {
     "ItemName":"Macbook",
     "ItemID":"Mac01",
@@ -14,11 +15,12 @@ exports.JSONinput=`{"Items":[
     "ItemID":"ROG01",
     "Description":"Description for ROG"
 }
-]}
+]
+}
 `;
 
-exports.XML=
-`<XMLroot>
+exports.XMLinput =
+    `<XMLroot>
 <header>
 <title>Small Pointless App<title>
 <name>Szilágyi István<name>
@@ -46,4 +48,4 @@ exports.XML=
 </item>
 </body>
 </XMLroot>`
-;
+    ;
